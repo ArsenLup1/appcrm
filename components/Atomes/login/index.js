@@ -29,7 +29,7 @@ const LoginForm = () => {
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Remmeber password" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" href="/test">
                 Se connecter
             </Button>
         </Form>
