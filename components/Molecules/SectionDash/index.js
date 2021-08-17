@@ -5,7 +5,6 @@ import { Container } from 'reactstrap';
 import { AiOutlineUser } from 'react-icons/ai';
 import { GoCalendar } from 'react-icons/go';
 import { IoLogoUsd } from 'react-icons/io';
-import Navbar from '../../Atomes/navbar';
 
 
 
@@ -14,16 +13,12 @@ const SectionDash = () => {
     return ( 
         <SectionDashStc>
             <div className="container-fuid">
-                    
-
-            <main>
-                <div>
-                <Navbar/>
-                </div>
+                
                 <div className="main__container mx-auto">
 
                     <div className="main__title">
-                        <img src="/img/logo.png" className="rounded thumbnail" alt="logo" width="300px" />
+                        <img src="/img/logo.png" 
+                            className="rounded thumbnail" alt="logo" width="200px" />
                         <div className="main__greeting">
                             <h1>Hello Admin</h1>
                             <p>Welcome to your dashboard CRM</p>
@@ -104,7 +99,6 @@ const SectionDash = () => {
                     </div>
                 </div>
                 
-            </main>
             </div>
   
         </SectionDashStc>

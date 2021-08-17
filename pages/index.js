@@ -14,7 +14,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Navb/>
         <SectionLogin />
       </main>
 
