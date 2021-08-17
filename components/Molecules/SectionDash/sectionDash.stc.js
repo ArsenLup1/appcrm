@@ -3,9 +3,8 @@ import { Container, Row } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SectionDashStc=Styled(Container)`
-    margin: 0;
-    padding: 0;
-    display: grid;
+    margin: 2px;
+    height: 100%;
     /*font-family: 'Lato', sans-serif;
     z-index: -6;*/
 
@@ -20,7 +19,7 @@ a{
 .container{
     display: grid;
     box-sizing: border-box;
-    height: 100vh;
+    height: 60%;
     grid-template-columns: 0.8fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 3fr;
     grid-template-areas:
@@ -34,63 +33,10 @@ a{
     font-weight: 700;
 }
 
-.navbar{
-    background: #ffffff;
-    grid-area: nav;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px 0px 30px;
-    border-bottom: 1px solid lightgray;
-}
-
-.nav__icon{
-    display: none;
-}
-
-.nav__icon > .ikons{
-    font-size: 26px;
-    color: #a5aaad;
-}
-
-.navbar__left > a{
-    margin-right: 30px;
-    text-decoration: none;
-    color: #a5aaad;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.navbar__left .active__link{
-    color: #265acc;
-    border-bottom: 3px solid #265acc;
-    padding-bottom: 12px;
-}
-
-.navbar__right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar__right > a{
-    margin-left: 20px;
-    text-decoration: none;
-}
-
-.navbar__right > a > .ikons{
-    color: #a5aaad;
-    font-size: 16px;
-    border-radius: 50px;
-    background: #ffffff;
-    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
-}
 
 main {
     background: #fff;
-    grid-area: main;
-    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .main__container{
@@ -99,12 +45,12 @@ main {
 
 .main__title{
     display: flex;
-    align-items: center;
-    width: max-content;
+    justify-content: center;
+    width: auto;
 }
 
 .main__title > img {
-    max-height: 100vh;
+    max-height: 100%;
     object-fit: contain;
     margin-right: 20px;
 }
@@ -435,9 +381,6 @@ main {
         display: inline;
     }
 
-    .nav__icon {
-        display: inline;
-    }
 }
 
 @media only screen and  (max-width: 855px) {
