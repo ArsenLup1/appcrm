@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const NavbarStc=Styled(Row)`
     background: #F0F0F0;
     height: auto;
-    padding-top: 3.5rem;
+    padding-top: 5.5rem;
+    overflow: hidden;
 
     a{
         position: relative;

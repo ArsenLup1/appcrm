@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import SectionLogin from '../components/Molecules/SectionLogin';
-import Navb from '../components/Atomes/navbar';
+import SectionDash from '../components/Molecules/SectionDash';
 
-export default function Home() {
+export default function test() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,9 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <Navb/>
-        <SectionLogin />
+      <main className={styles.main}> 
+      <div className="container-fluid">
+        <SectionDash />
+          </div>
       </main>
 
       <footer className={styles.footer}>
