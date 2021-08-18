@@ -13,7 +13,6 @@ import { FaPowerOff } from 'react-icons/fa';
 const Navb = () => {
 
     return ( 
-        <div className="container-fluid">
             <NavbarStc>
 
                 <Navbar bg="light" expand="lg">
@@ -53,7 +52,6 @@ const Navb = () => {
                 </Navbar>
 
 </NavbarStc>
-</div>
         )
 }
 
