@@ -13,7 +13,7 @@ export default function test() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container-fluid overflow: auto;"> 
+      <main className="container overflow: auto; mx-auto"> 
             <Navb/>
       <div className="container-fluid">
           

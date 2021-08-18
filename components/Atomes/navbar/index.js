@@ -15,12 +15,10 @@ const Navb = () => {
     return ( 
             <NavbarStc>
 
-                <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#">
+                <Navbar bg="light" expand="lg" className="w-100">
                     <div>
                         <img src="/img/Logo_CRM.png" className="rounded thumbnail" alt="logo" width="40px" />
                     </div>
-                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
