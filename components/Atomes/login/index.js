@@ -30,7 +30,7 @@ const LoginForm = () => {
                 <Form.Check type="checkbox" label="Remmeber password" />
             </Form.Group>
             <Button variant="primary" type="submit" href="/test">
-                Se connecter
+                Sign up
             </Button>
         </Form>
         
