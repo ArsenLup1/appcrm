@@ -36,7 +36,8 @@ a{
 
 main {
     background: #fff;
-    overflow-x: auto;
+    overflow: auto;
+    width: 100%;
 }
 
 .main__container{
@@ -384,6 +385,10 @@ main {
 }
 
 @media only screen and  (max-width: 855px) {
+    .main__container{
+        width: max-content;
+    }
+    
     .main__cards {
         grid-template-columns: 1fr;
         gap: 10px;
