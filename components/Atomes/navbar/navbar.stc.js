@@ -3,7 +3,7 @@ import { Container, Row } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavbarStc=Styled(Row)`
-    background: #F0F0F0;
+    background: transparent;
     width: auto;
     overflow: hidden;
     padding: 0;
