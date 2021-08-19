@@ -6,8 +6,8 @@ const LogoLogin = () => {
 
     return ( 
         <LogologinStc>
-            <div className="col-lg-12 align-middle d-flex justify-content-center">
-              <img src="/img/Logo_CRM.png" className="rounded thumbnail pt-5 mt-5" alt="logo" width="400px"/>
+            <div className="col-lg-12 align-middle d-flex justify-content-center login">
+              <img src="/img/Logo_CRM.png" className="rounded thumbnail pt-2 mt-5" alt="logo" width="300px"/>
             </div>
         </LogologinStc>
 
