@@ -4,9 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const NavbarStc=Styled(Row)`
     background: #F0F0F0;
-    width: 100vh;
-    height: auto;
+    width: auto;
     overflow: hidden;
+    padding: 0;
+    margin: 0;
 
     a{
         position: relative;
@@ -43,6 +44,10 @@ const NavbarStc=Styled(Row)`
     color: #e65061;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 490px) and (max-width: 990px){
+    width: auto;
 }
 
 
