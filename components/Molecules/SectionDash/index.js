@@ -30,21 +30,21 @@ const SectionDash = () => {
                     <div className="card">
                         <AiOutlineUser className="text-lightblue ikons"/>
                         <div className="card__inner">
-                            <p className="text-primari-p">ISO</p>
+                            <p className="text-primari-p">Ajouter RDV ISO</p>
                         </div>
                     </div>
 
                     <div className="card">
                         <GoCalendar className="text-red ikons"/>
                         <div className="card__inner">
-                            <p className="text-primari-p">CPF</p>
+                            <p className="text-primari-p">Ajouter RDV CPF</p>
                         </div>
                     </div>
 
                     <div className="card">
                         <AiOutlineUser className="text-black ikons"/>
                         <div className="card__inner">
-                            <p className="text-primari-p">ENEGIE</p>
+                            <p className="text-primari-p">Ajouter RDV ENEGIE</p>
                         </div>
                     </div>
 
