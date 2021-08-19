@@ -11,7 +11,7 @@ const LoginForm = () => {
     return ( 
     <Row className="mx-auto h-100 rounded">
         <div className='col-lg-12 align-middle d-flex justify-content-center pt-5 login'>
-            <img src="/img/avatar.png" className="rounded thumbnail monlogo" alt="logo" width="300px" />
+            <img src="/img/undraw_job.png" className="rounded thumbnail monlogo" alt="logo" width="300px" />
         </div>
         <div className="col-lg-12 align-middle d-flex justify-content-center sign-in">
             <h1 className='mt-5'>Sign in</h1>

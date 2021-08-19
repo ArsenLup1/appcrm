@@ -7,6 +7,9 @@ const LogologinStc=Styled(Row)`
     width: 100%;
     overflow: hidden;
 
+    .login{
+        margin-top: 5rem;
+    }
 
 
 .app{

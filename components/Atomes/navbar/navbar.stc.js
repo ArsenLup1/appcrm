@@ -46,8 +46,8 @@ const NavbarStc=Styled(Row)`
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 490px) and (max-width: 860px){
-    width: auto;
+@media screen and (min-width: 390px) and (max-width: 860px){
+    width: 100vw;
 }
 
 
