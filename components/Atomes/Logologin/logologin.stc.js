@@ -12,5 +12,14 @@ const LogologinStc=Styled(Row)`
 .app{
     border-radius: .8rem;
     width: 34rem;
+    }
+
+    @media screen and (max-width: 980px){
+    .login{
+    margin-top: 15rem;
+    }
+}
+
+
 `;
 export default LogologinStc;
