@@ -4,7 +4,7 @@ import { Container } from 'reactstrap';
 const loginFormStc=Styled(Container)`
     background: #F0F0F0;
 
-    .loginn{
+    .Login{
         width: 300px;
         margin: 10rem 5rem 5rem 0;
     }
