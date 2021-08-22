@@ -4,19 +4,21 @@ import LoginFormStc from './login.stc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
+import Image from 'next/image';
 
 
 const LoginForm = () => {
 
     return ( 
+        <LoginFormStc>
     <Row className="mx-auto h-100 rounded">
         <div className='col-lg-12 align-middle d-flex justify-content-center pt-5 loginn'>
-            <img src="/img/undraw_job.png" className="rounded thumbnail monlogo" alt="logo" width="300px" />
+            <img src="./img/undraw_job.png" className="rounded thumbnail monlogo" alt="logo" width="300px" />
         </div>
         <div className="col-lg-12 align-middle d-flex justify-content-center sign-in">
             <h1 className='mt-5'>Sign in</h1>
         </div>
-        <Form className="mb-3">
+        <Form className="mb-3 connxion">
             <Form.Group className = "mb-3" controlId = "formBasicEmail" >
             <Form.Label >  </Form.Label> 
             <Form.Control type = "email" placeholder = "login" />
@@ -35,6 +37,7 @@ const LoginForm = () => {
         </Form>
         
     </Row>
+    </LoginFormStc>
     )
 }
 

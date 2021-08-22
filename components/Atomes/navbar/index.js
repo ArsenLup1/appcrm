@@ -27,7 +27,7 @@ const Navb = () => {
                     navbarScroll
                     >
                     <Nav.Link href="/test">Admin</Nav.Link>
-                    <Nav.Link href="/rendez-vous">Centre Professionel de MFormation</Nav.Link>
+                    <Nav.Link href="/rendezvous">Centre Professionel de Formation</Nav.Link>
                     <Nav.Link href="#action3">Isolation</Nav.Link>
                     
                     </Nav>

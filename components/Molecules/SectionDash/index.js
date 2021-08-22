@@ -5,6 +5,7 @@ import { Container } from 'reactstrap';
 import { AiOutlineUser } from 'react-icons/ai';
 import { GoCalendar } from 'react-icons/go';
 import { IoLogoUsd } from 'react-icons/io';
+import Link from 'next/link';
 
 
 
@@ -30,7 +31,7 @@ const SectionDash = () => {
                     <div className="card">
                         <AiOutlineUser className="text-lightblue ikons"/>
                         <div className="card__inner">
-                            <a className="text-primari-p" href="/rendez-vous">Ajouter RDV ISO</a>
+                            <Link className="text-primari-p" href="/rendezvous">Ajouter RDV ISO</Link>
 
                         </div>
                     </div>
@@ -38,14 +39,14 @@ const SectionDash = () => {
                     <div className="card">
                         <GoCalendar className="text-red ikons"/>
                         <div className="card__inner">
-                            <a className="text-primari-p" href="/rendez-vous">Ajouter RDV CPF</a>
+                            <Link  className="text-primari-p" href="/rendezvous">Ajouter RDV CPF</Link>
                         </div>
                     </div>
 
                     <div className="card">
                         <AiOutlineUser className="text-black ikons"/>
                         <div className="card__inner">
-                            <a className="text-primari-p" href="/rendez-vous">Ajouter RDV ENERGIE</a>
+                            <Link  className="text-primari-p" href="/rendezvous">Ajouter RDV ENERGIE</Link>
                         </div>
                     </div>
 
