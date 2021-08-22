@@ -1,11 +1,10 @@
 import Styled from 'styled-components';
-import { Container, Row } from 'reactstrap';
+import { Container, Navbar, Row } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const NavbarStc=Styled(Row)`
+const NavbarStc=Styled(Navbar)`
     background: transparent;
-    width: auto;
-    overflow: hidden;
+    width: fit-content;
     padding: 0;
     margin: 0;
 
@@ -47,7 +46,7 @@ const NavbarStc=Styled(Row)`
 }
 
 @media screen and (min-width: 340px) and (max-width: 860px){
-    width: 35rem;
+    width: 100%;
 }
 
 

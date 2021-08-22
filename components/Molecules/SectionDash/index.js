@@ -6,6 +6,7 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { GoCalendar } from 'react-icons/go';
 import { IoLogoUsd } from 'react-icons/io';
 import Link from 'next/link';
+import Navb from '../../Atomes/navbar';
 
 
 
@@ -14,7 +15,7 @@ const SectionDash = () => {
     return ( 
         <SectionDashStc>
             <div className="container-fuid">
-                
+                <Navb/>
                 <div className="main__container mx-auto">
 
                     <div className="main__title">
