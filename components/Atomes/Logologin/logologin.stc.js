@@ -23,6 +23,9 @@ const LogologinStc=Styled(Row)`
     .login{
     margin-top: 20rem!important;
     }
+    .imgLogoSignIn{
+        margin-top: 3rem;
+    }
 }
 
 
