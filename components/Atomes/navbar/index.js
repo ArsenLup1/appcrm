@@ -16,9 +16,11 @@ const Navb = () => {
             <NavbarStc>
 
                 <Navbar expand="lg" className="w-100">
-                    <div>
-                        <img src="/img/Logo_CRM.png" className="rounded thumbnail" alt="logo" width="40px" />
-                    </div>
+                    <Nav.Link href="/">
+                        <div>
+                            <img src="/img/Logo_CRM.png" className="rounded thumbnail" alt="logo" width="40px" />
+                        </div>
+                    </Nav.Link>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -28,7 +30,7 @@ const Navb = () => {
                     >
                     <Nav.Link href="/test">Admin</Nav.Link>
                     <Nav.Link href="/rendezvous">Centre Professionel de Formation</Nav.Link>
-                    <Nav.Link href="#action3">Isolation</Nav.Link>
+                    <Nav.Link href="/rendezvous">Isolation</Nav.Link>
                     
                     </Nav>
                     <Form className="d-flex">
@@ -43,7 +45,7 @@ const Navb = () => {
                     <Button variant="outline-danger ml-2">Search</Button>
                     <div className="sidebar__logout">
                         <FaPowerOff className="ikons" />
-                        <a href="#">Log out</a>
+                        <a href="/">Log out</a>
                     </div>
                     </Form>
                 </Navbar.Collapse>
