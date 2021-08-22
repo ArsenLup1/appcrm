@@ -7,6 +7,7 @@ import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaPowerOff } from 'react-icons/fa';
+import Link from 'next/link';
 
 
 
@@ -45,7 +46,7 @@ const Navb = () => {
                     <Button variant="outline-danger ml-2">Search</Button>
                     <div className="sidebar__logout">
                         <FaPowerOff className="ikons" />
-                        <a href="/">Log out</a>
+                        <Link href="/">Log out</Link>
                     </div>
                     </Form>
                 </Navbar.Collapse>
