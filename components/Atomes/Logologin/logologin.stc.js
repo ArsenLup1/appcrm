@@ -19,12 +19,12 @@ const LogologinStc=Styled(Row)`
 
     @media screen and (min-width: 340px) and (max-width: 860px){
         
-            margin-top: 10rem!important;
+            margin-top: 1rem!important;
     .login{
-    margin-top: 20rem!important;
+    margin-top: 8rem!important;
     }
     .imgLogoSignIn{
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 }
 
