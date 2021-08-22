@@ -18,7 +18,7 @@ const LoginForm = () => {
         <div className="col-lg-12 align-middle d-flex justify-content-center sign-in">
             <h1 className='mt-5'>Sign in</h1>
         </div>
-        <Form className="mb-3">
+        <Form className="mb-3 connxion">
             <Form.Group className = "mb-3" controlId = "formBasicEmail" >
             <Form.Label >  </Form.Label> 
             <Form.Control type = "email" placeholder = "login" />
