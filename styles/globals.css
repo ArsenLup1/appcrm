@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #fff80fad !important;
+  background-color: #f7f49dad !important;
     
     @media screen and (min-width: 390px) and (max-width: 990px){
       width: fit-content;

@@ -2,7 +2,7 @@ import Styled from 'styled-components';
 import { Container } from 'reactstrap';
 
 const loginFormStc=Styled(Container)`
-    background: #FfFfFf;
+    background: #f7f49dad
 
     .loginn{
         width: 300px;

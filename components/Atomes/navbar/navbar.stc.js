@@ -36,6 +36,7 @@ const NavbarStc=Styled(Navbar)`
     margin: auto;
     color: #e65061;
     padding: 10px;
+    margin-left: 5rem;
 }
 
 .sidebar__logout > a{

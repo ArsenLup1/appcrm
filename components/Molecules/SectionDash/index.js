@@ -4,7 +4,7 @@ import SectionDashStc from './sectionDash.stc';
 import { Container } from 'reactstrap';
 import { AiOutlineUser } from 'react-icons/ai';
 import { GoCalendar } from 'react-icons/go';
-import { IoLogoUsd } from 'react-icons/io';
+import { CgNotes } from 'react-icons/cg';
 import Link from 'next/link';
 import Navb from '../../Atomes/navbar';
 
@@ -58,10 +58,10 @@ const SectionDash = () => {
                     <div className="charts__left">
                         <div className='charts__left__title'>
                             <div>
-                                <h1>Daily Reports</h1>
-                                <p>Lupin, Ain-Sebaâ, Casablanca</p>
+                                <h1>Statistiques Total</h1>
+                                <p>Call Ain-Sebaâ, Casablanca</p>
                             </div>
-                            <IoLogoUsd className="ikons" />
+                            <CgNotes className="ikons" />
                         </div>
                         <div id="chart">
                             <img src="/img/bgComjob.jpg" className="rounded thumbnail w-auto" alt="logo" width="30px" />
@@ -71,32 +71,32 @@ const SectionDash = () => {
                     <div className="charts__right">
                         <div className="charts__right__title">
                             <div>
-                                <h1>Stats Reports</h1>
-                                <p>Cupertino, Ain-Sebaâ, Casablanca</p>
+                                <h1>Statistiques Total</h1>
+                                <p>Call-Name, Ain-Sebaâ, Casablanca</p>
                             </div>
-                            <IoLogoUsd className="ikons" /> 
+                            <CgNotes className="ikons" /> 
                         </div>
 
                         <div className="charts__right__cards">
 
                             <div className="card1">
-                                <h1>En attente</h1>
-                                <p>$75,300</p>
+                                <h1>Isolation</h1>
+                                <p>75,300</p>
                             </div>
 
                             <div className="card2">
-                                <h1>Confirmer</h1>
-                                <p>$125,500</p>
+                                <h1>CPF</h1>
+                                <p>125,500</p>
                             </div>
 
                             <div className="card3">
-                                <h1>Users</h1>
-                                <p>$7300</p>
+                                <h1>Energie</h1>
+                                <p>7300</p>
                             </div>
 
                             <div className="card4">
-                                <h1>Annuler</h1>
-                                <p>$75,300</p>
+                                <h1>Annuler/en attente</h1>
+                                <p>75,300</p>
                             </div>
                         </div>
                     </div>

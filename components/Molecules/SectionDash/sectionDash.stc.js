@@ -321,6 +321,7 @@ main {
     margin-top: 20px;
     color: #e65061;
     padding: 10px;
+    margin-left: 5rem!important;
 }
 
 .sidebar__logout > a{
