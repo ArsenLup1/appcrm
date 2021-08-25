@@ -19,7 +19,7 @@ const Navb = () => {
                 <Navbar expand="lg" className="w-100">
                     <Nav.Link href="/">
                         <div>
-                            <img src="/img/Logo_CRM.png" className="rounded thumbnail" alt="logo" width="40px" />
+                            <img src="/img/KomJ.png" className="rounded thumbnail" alt="logo" width="40px" />
                         </div>
                     </Nav.Link>
                 <Navbar.Toggle aria-controls="navbarScroll" />
