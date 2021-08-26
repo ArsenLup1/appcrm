@@ -31,7 +31,7 @@ const Navb = () => {
                     >
                     <Nav.Link href="/test">Admin</Nav.Link>
                     <Nav.Link href="/rendezvous">Centre Professionel de Formation</Nav.Link>
-                    <Nav.Link href="/rendezvous">Isolation</Nav.Link>
+                    <Nav.Link href="/rdviso">Isolation</Nav.Link>
                     
                     </Nav>
                     <Form className="d-flex">
