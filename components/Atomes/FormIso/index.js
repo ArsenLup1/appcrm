@@ -201,7 +201,6 @@ function FormRdvIso() {
                     <option>Maison</option>
                     <option>Plain pied</option>
                     <option>A étages</option>
-                    <option>4</option>
                 </select>
             </div>
       </Col>

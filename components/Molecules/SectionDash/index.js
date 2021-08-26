@@ -32,7 +32,7 @@ const SectionDash = () => {
                     <div className="card">
                         <AiOutlineUser className="text-lightblue ikons"/>
                         <div className="card__inner">
-                            <Link className="text-primari pe" href="/rendezvous">Ajouter RDV ISO</Link>
+                            <Link className="text-primari pe" href="//rdviso">Ajouter RDV ISO</Link>
 
                         </div>
                     </div>
