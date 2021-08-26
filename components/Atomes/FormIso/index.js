@@ -195,26 +195,34 @@ function FormRdvIso() {
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
-        <Form.Group as={Col} md="4" controlId="validationCustom02">
-          <Form.Control
-            required
-            type="text"
-            placeholder="Solde"
-          />
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
+        <Col className="lg-col-lg-4">
+            <div class="form-group">
+                <select class="form-control" id="sel1">
+                    <option>Maison</option>
+                    <option>Plain pied</option>
+                    <option>A étages</option>
+                    <option>4</option>
+                </select>
+            </div>
+      </Col>
     </Row>
 
     <Row className="mb-3">
       <Col className="lg-col-lg-4">
         <Dropdown as={ButtonGroup}>
-          <Dropdown.Toggle id="dropdown-custom-1">Création de compte</Dropdown.Toggle>
+          <Dropdown.Toggle id="dropdown-custom-1">Chauffage</Dropdown.Toggle>
           <Dropdown.Menu className="super-colors">
             <Dropdown.Item eventKey="3" active>
-              Création de compte
+              Chauffage
             </Dropdown.Item>
-            <Dropdown.Item eventKey="1">Oui</Dropdown.Item>
-            <Dropdown.Item eventKey="2">Non</Dropdown.Item>
+            <Dropdown.Item eventKey="1">Electricité</Dropdown.Item>
+            <Dropdown.Item eventKey="4">Fuel</Dropdown.Item>
+            <Dropdown.Item eventKey="5">Gaz de ville</Dropdown.Item>
+            <Dropdown.Item eventKey="6">Gaz prop but</Dropdown.Item>
+            <Dropdown.Item eventKey="7">Bois</Dropdown.Item>
+            <Dropdown.Item eventKey="8">PAC</Dropdown.Item>
+            <Dropdown.Item eventKey="9">Geothérmie</Dropdown.Item>
+            <Dropdown.Item eventKey="10">Autre</Dropdown.Item>
           
         </Dropdown.Menu>
       </Dropdown>
@@ -232,12 +240,13 @@ function FormRdvIso() {
       <Col className="md-4">
           
         <Dropdown as={ButtonGroup}>
-          <Dropdown.Toggle id="dropdown-custom-1">Centre de formation</Dropdown.Toggle>
+          <Dropdown.Toggle id="dropdown-custom-1">GPCI</Dropdown.Toggle>
           <Dropdown.Menu className="super-colors">
             <Dropdown.Item eventKey="3" active>
-              Centre de formation
+              Precaire
             </Dropdown.Item>
-            <Dropdown.Item eventKey="2">CPF CYPRES</Dropdown.Item>
+            <Dropdown.Item eventKey="2">Grand Precaire</Dropdown.Item>
+            <Dropdown.Item eventKey="4">Classique</Dropdown.Item>
           
         </Dropdown.Menu>
       </Dropdown>
