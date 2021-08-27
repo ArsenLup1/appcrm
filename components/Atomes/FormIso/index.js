@@ -196,13 +196,23 @@ function FormRdvIso() {
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
         <Col className="lg-col-lg-4">
-            <div class="form-group">
+            <Dropdown as={ButtonGroup}>
+          <Dropdown.Toggle id="dropdown-custom-1">Maison</Dropdown.Toggle>
+          <Dropdown.Menu className="super-colors">
+            <Dropdown.Item eventKey="3" active>
+              Maison
+            </Dropdown.Item>
+            <Dropdown.Item eventKey="1">Plain pied</Dropdown.Item>
+            <Dropdown.Item eventKey="4">A étages</Dropdown.Item>          
+        </Dropdown.Menu>
+      </Dropdown>
+      {/*<div class="form-group">
                 <select class="form-control" id="sel1">
-                    <option>Maison</option>
-                    <option>Plain pied</option>
-                    <option>A étages</option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
                 </select>
-            </div>
+  </div>*/}
       </Col>
     </Row>
 
