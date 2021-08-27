@@ -11,7 +11,8 @@ const SectionDashStc=Styled(Container)`
     z-index: -6;*/
 
 a{
-    text-decoration: none;
+    text-decoration: none!important;
+    color: black;
 }
     
 .text-green{
@@ -87,14 +88,19 @@ main {
     height: 70px;
     padding: 25px;
     cursor: pointer;
+    border-radius: .5rem;
     background: #000;
-    box-shadow: 5px 5px 13px #ededed, 
-                -5px -5px 13px #ffffff;
+    box-shadow: 5px 5px 13px #847e7e94, 
+                -5px -5px 13px #f1efef;
 }
 
 .card:hover{
     transform: scale(1.1);
     transition: .5s;
+}
+
+.card > .card__inner > .a{
+    color: black;
 }
 
 .card__inner{
@@ -192,6 +198,17 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 30px;
+}
+
+.card{
+    background-color: gold;
+}
+
+.card, .a{
+    text-decoration: none;
+    color: #00000;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .card1{
