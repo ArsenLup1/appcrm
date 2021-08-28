@@ -19,7 +19,7 @@ const SectionDash = () => {
                 <div className="main__container mx-auto">
 
                     <div className="main__title">
-                        <img src="/img/LogoComJOb.png" 
+                        <img src="/img/LogoComJob.png" 
                             className="rounded thumbnail" alt="logo" width="240px" />
                         <div className="main__greeting">
                             <h1>Hello Admin</h1>
