@@ -19,8 +19,8 @@ const SectionDash = () => {
                 <div className="main__container mx-auto">
 
                     <div className="main__title">
-                        <img src="/img/Logo-ComJob.png" 
-                            className="rounded thumbnail" alt="logo" width="200px" />
+                        <img src="/img/Logo-ComJOb.png" 
+                            className="rounded thumbnail" alt="logo" width="240px" />
                         <div className="main__greeting">
                             <h1>Hello Admin</h1>
                             <p>Welcome to your dashboard CRM</p>

@@ -207,7 +207,7 @@ main {
 .card, .a{
     text-decoration: none;
     color: #00000;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 700;
 }
 
