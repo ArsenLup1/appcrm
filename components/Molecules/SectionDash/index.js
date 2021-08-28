@@ -80,23 +80,19 @@ const SectionDash = () => {
                         <div className="charts__right__cards">
 
                             <div className="card1">
-                                <h1>Isolation</h1>
-                                <p>75,300</p>
+                                <h1>Confirmé</h1>
                             </div>
 
                             <div className="card2">
-                                <h1>CPF</h1>
-                                <p>125,500</p>
+                                <h1>POSE</h1>
                             </div>
 
                             <div className="card3">
-                                <h1>Energie</h1>
-                                <p>7300</p>
+                                <h1>NRP</h1>
                             </div>
 
                             <div className="card4">
-                                <h1>Annuler/en attente</h1>
-                                <p>75,300</p>
+                                <h1>Annulée</h1>
                             </div>
                         </div>
                     </div>
