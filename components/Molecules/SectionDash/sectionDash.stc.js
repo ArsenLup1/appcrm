@@ -13,6 +13,8 @@ const SectionDashStc=Styled(Container)`
 a{
     text-decoration: none!important;
     color: black;
+    font-size: initial;
+    font-weight: 700;
 }
     
 .text-green{
@@ -59,6 +61,7 @@ main {
     max-height: 100%;
     object-fit: contain;
     margin-right: 20px;
+    margin-top: -3rem;
 }
 
 .main__greeting > h1{
