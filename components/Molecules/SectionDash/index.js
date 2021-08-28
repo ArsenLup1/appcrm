@@ -20,7 +20,7 @@ const SectionDash = () => {
 
                     <div className="main__title">
                         <img src="/img/Logo__ComJ.png" 
-                            className="rounded thumbnail" alt="logo" width="340px" />
+                            className="rounded thumbnail" alt="logo" width="240px" />
                         <div className="main__greeting">
                             <h1>Hello Admin</h1>
                             <p>Welcome to your dashboard CRM</p>
@@ -50,10 +50,9 @@ const SectionDash = () => {
                             <Link  className="text-primari pe" href="/rendezvous">Ajouter RDV ENERGIE</Link>
                         </div>
                     </div>
-
-                    
                 </div>
             </div>
+            
                 <div className="charts">
                     <div className="charts__left">
                         <div className='charts__left__title'>

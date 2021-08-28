@@ -64,6 +64,12 @@ main {
     margin-top: -3rem;
 }
 
+.main__greeting{
+    display: block;
+    justify-content: center;
+    align-self: center;
+}
+
 .main__greeting > h1{
     font-size: 24px;
     color: #2e4a66;
@@ -77,7 +83,8 @@ main {
 }
 
 .main__cards{
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     margin: 20px 0px;
@@ -399,6 +406,10 @@ main {
         grid-template-rows: 0.2fr 3fr;
         grid-template-areas: "nav" "main";
     }*/
+
+    .main__cards{
+        display: block;
+    }
 
     #sidebar{
         display: none;
