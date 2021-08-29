@@ -12,11 +12,11 @@ const SectionLogin = () => {
         <div className="container m-2">
         <SectionLoginStc>
         <div className="row rounded ranger">
-            <div className="col-lg mb-2">
+            <div className="coline col-lg">
                 <LogoLogin />
             </div>
   
-            <div className="col-lg mb-2">
+            <div className="col-lg login-in">
                 <LoginForm />
             </div>
         </div>

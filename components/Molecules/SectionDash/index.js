@@ -62,8 +62,14 @@ const SectionDash = () => {
                             </div>
                             <CgNotes className="ikons" />
                         </div>
-                        <div id="chart">
-                            <img src="/img/bgComjob.jpg" className="rounded thumbnail w-auto" alt="logo" width="30px" />
+                        <div className="charts__right__cards">
+                        <div className="card1">
+                                <h1>Confirmé</h1>
+                            </div>
+
+                            <div className="card2">
+                                <h1>POSE</h1>
+                            </div>
                         </div>
                     </div>
 
@@ -77,14 +83,6 @@ const SectionDash = () => {
                         </div>
 
                         <div className="charts__right__cards">
-
-                            <div className="card1">
-                                <h1>Confirmé</h1>
-                            </div>
-
-                            <div className="card2">
-                                <h1>POSE</h1>
-                            </div>
 
                             <div className="card3">
                                 <h1>NRP</h1>
