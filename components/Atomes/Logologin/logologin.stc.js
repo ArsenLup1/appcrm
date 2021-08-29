@@ -20,6 +20,8 @@ const LogologinStc=Styled(Row)`
     @media screen and (min-width: 340px) and (max-width: 860px){
         
             margin-top: 1rem!important;
+            visibility: hidden;
+            height: 0px;
     .login{
     margin-top: 8rem!important;
     }
