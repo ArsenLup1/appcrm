@@ -15,8 +15,8 @@ const loginFormStc=Styled(Container)`
 
     @media screen and (min-width: 320px) and (max-width: 860px){
     .loginn{
-        visibility: hidden;
-        height: 0px;
+        //visibility: hidden;
+        //height: 0px;
     }
     .connxion{
         margin-left: 1rem;
