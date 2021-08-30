@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/img/bg-ComJob.png")!important;
+  background-size: cover;
 }
 
 .main {

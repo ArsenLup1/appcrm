@@ -3,7 +3,7 @@ import { Container, Row } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SectionDashStc=Styled(Container)`
-    margin: 2px;
+    //margin: 2px;
     height: 100%;
     overflow: hidden;
     width: fit-content;
