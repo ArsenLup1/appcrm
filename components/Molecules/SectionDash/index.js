@@ -33,7 +33,6 @@ const SectionDash = () => {
                         <AiOutlineUser className="text-lightblue ikons"/>
                         <div className="card__inner">
                             <Link className="text-primari pe" href="/rdviso">Ajouter RDV ISO</Link>
-
                         </div>
                     </div>
 
@@ -63,10 +62,9 @@ const SectionDash = () => {
                             <CgNotes className="ikons" />
                         </div>
                         <div className="charts__right__cards">
-                        <div className="card1">
-                                <h1>Confirmé</h1>
+                            <div className="card1">
+                                    <h1>Confirmé</h1>
                             </div>
-
                             <div className="card2">
                                 <h1>POSE</h1>
                             </div>
