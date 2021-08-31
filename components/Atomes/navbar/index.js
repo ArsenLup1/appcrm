@@ -8,6 +8,7 @@ import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaPowerOff } from 'react-icons/fa';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -19,7 +20,7 @@ const Navb = () => {
                 <Navbar expand="lg" className="w-100">
                     <Nav.Link href="/">
                         <div>
-                            <img src="/img/KomJ.png" className="rounded thumbnail" alt="logo" width="40px" />
+                            <Image src="/img/KomJ.png" alt="Vercel Logo" width={40} height={40}/>
                         </div>
                     </Nav.Link>
                 <Navbar.Toggle aria-controls="navbarScroll" />
