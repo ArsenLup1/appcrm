@@ -32,7 +32,12 @@ const SectionDash = () => {
                     <div className="card">
                         <AiOutlineUser className="text-lightblue ikons"/>
                         <div className="card__inner">
+<<<<<<< HEAD
                             <Link className="text-primari title" href="/rdviso">Ajouter RDV ISO</Link>
+=======
+                            <Link className="text-primari pe" href="//rdviso">Ajouter RDV ISO</Link>
+
+>>>>>>> parent of dbd3985 (ouf)
                         </div>
                     </div>
 

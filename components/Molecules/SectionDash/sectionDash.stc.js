@@ -11,10 +11,14 @@ const SectionDashStc=Styled(Container)`
     z-index: -6;*/
 
 a{
+<<<<<<< HEAD
     text-decoration: none!important;
     color: black;
     font-size: initial;
     font-weight: 700;
+=======
+    text-decoration: none;
+>>>>>>> parent of dbd3985 (ouf)
 }
     
 .text-green{
@@ -98,19 +102,14 @@ main {
     height: 70px;
     padding: 25px;
     cursor: pointer;
-    border-radius: .5rem;
     background: #000;
-    box-shadow: 5px 5px 13px #847e7e94, 
-                -5px -5px 13px #f1efef;
+    box-shadow: 5px 5px 13px #ededed, 
+                -5px -5px 13px #ffffff;
 }
 
 .card:hover{
     transform: scale(1.1);
     transition: .5s;
-}
-
-.card > .card__inner > .a{
-    color: black;
 }
 
 .card__inner{
@@ -210,6 +209,7 @@ main {
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
 .card{
     background-color: gold;
 }
@@ -221,6 +221,8 @@ main {
     font-weight: 700;
 }
 
+=======
+>>>>>>> parent of dbd3985 (ouf)
 .card1{
     background: #d1ecf1;
     color: #35a4ba;

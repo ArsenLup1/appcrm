@@ -10,7 +10,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import FormRdvIsoStc from './formIso.stc';
 /*import { FormGroup, Input, FormText } from 'reactstrap';*/
 
-//const FormRdvIso = () => {
+
 
 function FormRdvIso() {
   const [validated, setValidated] = useState(false);
@@ -203,9 +203,16 @@ function FormRdvIso() {
               Maison
             </Dropdown.Item>
             <Dropdown.Item eventKey="1">Plain pied</Dropdown.Item>
-            <Dropdown.Item eventKey="1">A étages</Dropdown.Item>          
+            <Dropdown.Item eventKey="4">A étages</Dropdown.Item>          
         </Dropdown.Menu>
       </Dropdown>
+      {/*<div class="form-group">
+                <select class="form-control" id="sel1">
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+  </div>*/}
       </Col>
     </Row>
 
@@ -218,13 +225,13 @@ function FormRdvIso() {
               Chauffage
             </Dropdown.Item>
             <Dropdown.Item eventKey="1">Electricité</Dropdown.Item>
-            <Dropdown.Item eventKey="1">Fuel</Dropdown.Item>
-            <Dropdown.Item eventKey="1">Gaz de ville</Dropdown.Item>
-            <Dropdown.Item eventKey="1">Gaz prop but</Dropdown.Item>
-            <Dropdown.Item eventKey="1">Bois</Dropdown.Item>
-            <Dropdown.Item eventKey="1">PAC</Dropdown.Item>
-            <Dropdown.Item eventKey="1">Geothérmie</Dropdown.Item>
-            <Dropdown.Item eventKey="1">Autre</Dropdown.Item>
+            <Dropdown.Item eventKey="4">Fuel</Dropdown.Item>
+            <Dropdown.Item eventKey="5">Gaz de ville</Dropdown.Item>
+            <Dropdown.Item eventKey="6">Gaz prop but</Dropdown.Item>
+            <Dropdown.Item eventKey="7">Bois</Dropdown.Item>
+            <Dropdown.Item eventKey="8">PAC</Dropdown.Item>
+            <Dropdown.Item eventKey="9">Geothérmie</Dropdown.Item>
+            <Dropdown.Item eventKey="10">Autre</Dropdown.Item>
           
         </Dropdown.Menu>
       </Dropdown>
@@ -232,7 +239,7 @@ function FormRdvIso() {
 
       <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Control
-            id="disabledFieldsetCheck"
+            required
             type="text"
             placeholder="Solde"
           />
@@ -257,7 +264,7 @@ function FormRdvIso() {
   </Row>
     </div>
 
-    
+    <div>
       <Row className="xs-col-10 w-80 mb-2 mx-auto">
         <Col className="md-col">
             <Button type="submit" className="rdv_btn btn btn-danger">Isolation</Button>
@@ -287,18 +294,19 @@ function FormRdvIso() {
             <Button type="submit" className="rdv_btn btn btn-danger">CESI</Button>
         </Col>
       </Row>
+    </div>
 
 {/*ici*/}
       
       
-     <Row>
+      <Row>
         <Col className="md-col-12">
             <Button type="submit" className="rdv_btn btn btn-danger">Rendez vous</Button>
         </Col>
       </Row>
       
     </Form>
-</FormRdvIsoStc>
+    </FormRdvIsoStc>
   );
 }
 
