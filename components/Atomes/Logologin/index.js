@@ -7,9 +7,8 @@ const LogoLogin = () => {
 
     return ( 
         <LogologinStc>
-            <div className="col-lg-12 pt-5 mb-1 align-middle d-flex justify-content-center login">
+            <div className="login col-lg-12 pt-5 mb-1 align-middle d-flex justify-content-center">
               <Image src="/img/Logo__ComJ.png" alt="Vercel Logo" width={350} height={306} />
-              {/*<img src="./img/Logo__ComJ.png" className="rounded thumbnail monlogo" alt="logo" width="300px" />*/}
             </div>
         </LogologinStc>
 
