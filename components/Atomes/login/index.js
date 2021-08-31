@@ -4,7 +4,7 @@ import LoginFormStc from './login.stc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
-import Image from 'next/image';
+//import Image from 'next/image';
 
 
 const LoginForm = () => {
