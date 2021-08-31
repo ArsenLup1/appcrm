@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import Navb from '../components/Atomes/navbar';
 import MoleculeRdvFormation from '../components/Molecules/MoleculeRdv';
+import Link from 'next/link';
 
 export default function rdv() {
   return (
@@ -15,7 +16,7 @@ export default function rdv() {
 
       <main className="container overflow: auto; mx-auto"> 
             <Navb/>
-      <div className="container">
+      <div className="container mt-3">
             <MoleculeRdvFormation />
       </div>
           
@@ -27,7 +28,7 @@ export default function rdv() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Copyright ComJob 2021{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>

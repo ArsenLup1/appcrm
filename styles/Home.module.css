@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/img/bg-ComJob.png")!important;
+  background-size: cover;
 }
 
 .main {
@@ -15,7 +20,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: fit-content;
 }
+
+@media screen and (min-width: 340px) and (max-width: 860px){
+    .main{
+        width: fit-content!important;
+    }}
 
 .footer {
   width: 100%;
