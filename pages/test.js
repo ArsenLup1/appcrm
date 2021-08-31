@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import SectionDash from '../components/Molecules/SectionDash';
 import Navb from '../components/Atomes/navbar';
+import Link from 'next/link';
 
 export default function test() {
   return (
@@ -20,7 +21,7 @@ export default function test() {
       </main>
 
       <footer className={styles.footer}>
-        <a
+        <Link
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -29,7 +30,7 @@ export default function test() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </Link>
       </footer>
     </div>
   )
