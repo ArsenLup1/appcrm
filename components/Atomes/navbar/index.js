@@ -7,6 +7,8 @@ import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import { FaPowerOff } from 'react-icons/fa';
+import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -16,19 +18,21 @@ const Navb = () => {
             <NavbarStc>
 
                 <Navbar expand="lg" className="w-100">
-                    <div>
-                        <img src="/img/Logo_CRM.png" className="rounded thumbnail" alt="logo" width="40px" />
-                    </div>
+                    <Nav.Link href="/">
+                        <div>
+                            <Image src="/img/KomJ.png" alt="Vercel Logo" width={40} height={40}/>
+                        </div>
+                    </Nav.Link>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                    className="mr-auto my-2 my-lg-0"
+                    className="mx-auto my-2 my-lg-12"
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                     >
                     <Nav.Link href="/test">Admin</Nav.Link>
                     <Nav.Link href="/rendezvous">Centre Professionel de Formation</Nav.Link>
-                    <Nav.Link href="#action3">Isolation</Nav.Link>
+                    <Nav.Link href="/rdviso">Isolation</Nav.Link>
                     
                     </Nav>
                     <Form className="d-flex">
@@ -43,7 +47,7 @@ const Navb = () => {
                     <Button variant="outline-danger ml-2">Search</Button>
                     <div className="sidebar__logout">
                         <FaPowerOff className="ikons" />
-                        <a href="#">Log out</a>
+                        <Link href="/">Log out</Link>
                     </div>
                     </Form>
                 </Navbar.Collapse>

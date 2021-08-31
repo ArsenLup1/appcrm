@@ -13,7 +13,8 @@ const LoginForm = () => {
         <LoginFormStc>
     <Row className="mx-auto h-100 rounded">
         <div className='col-lg-12 align-middle d-flex justify-content-center pt-5 loginn'>
-            <img src="./img/undraw_job.png" className="rounded thumbnail monlogo" alt="logo" width="300px" />
+            <Image src="/img/KomJ.png" alt="Vercel Logo" width={350} height={306} />
+            {/*<Image src="./KomJ.png" className="rounded thumbnail monlogo" alt="logo" width="300px"/>*/}
         </div>
         <div className="col-lg-12 align-middle d-flex justify-content-center sign-in">
             <h1 className='mt-5'>Sign in</h1>

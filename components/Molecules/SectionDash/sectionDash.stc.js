@@ -3,12 +3,18 @@ import { Container, Row } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SectionDashStc=Styled(Container)`
-    margin: 2px;
+    //margin: 2px;
     height: 100%;
+    overflow: hidden;
+    width: fit-content;
     /*font-family: 'Lato', sans-serif;
     z-index: -6;*/
 
 a{
+    text-decoration: none!important;
+    color: black;
+    font-size: initial;
+    font-weight: 700;
     text-decoration: none;
 }
     
@@ -36,12 +42,14 @@ a{
 
 main {
     background: #fff;
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
+
 }
 
 .main__container{
     padding: 60px 50px 0;
+    width: -webkit-fill-available;
 }
 
 .main__title{
@@ -54,6 +62,13 @@ main {
     max-height: 100%;
     object-fit: contain;
     margin-right: 20px;
+    margin-top: -3rem;
+}
+
+.main__greeting{
+    display: block;
+    justify-content: center;
+    align-self: center;
 }
 
 .main__greeting > h1{
@@ -69,10 +84,12 @@ main {
 }
 
 .main__cards{
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
     margin: 20px 0px;
+    overflow: hidden;
 }
 
 .card{
@@ -188,6 +205,19 @@ main {
     gap: 20px;
     margin-top: 30px;
 }
+
+
+.card{
+    background-color: gold;
+}
+
+.card, .a{
+    text-decoration: none;
+    color: #00000;
+    font-size: 10px;
+    font-weight: 700;
+}
+
 
 .card1{
     background: #d1ecf1;
@@ -316,6 +346,7 @@ main {
     margin-top: 20px;
     color: #e65061;
     padding: 10px;
+    margin-left: 5rem!important;
 }
 
 .sidebar__logout > a{
@@ -368,10 +399,14 @@ main {
 }
 
 @media only screen and (max-width: 978px) {
-    .container {
+    /*.container {
         grid-template-columns: 1fr;
         grid-template-rows: 0.2fr 3fr;
         grid-template-areas: "nav" "main";
+    }*/
+
+    .main__cards{
+        display: block;
     }
 
     #sidebar{
@@ -391,14 +426,17 @@ main {
     
     .main__cards {
         grid-template-columns: 1fr;
-        gap: 10px;
-        margin-bottom: 0
+        gap: 30px;
+        margin-bottom: 0;
     }
 
     .charts {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         margin-top: 30px;
     }
+}
+
+
 }
 
 

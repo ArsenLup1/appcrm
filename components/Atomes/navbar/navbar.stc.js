@@ -1,11 +1,10 @@
 import Styled from 'styled-components';
-import { Container, Row } from 'reactstrap';
+import { Container, Navbar, Row } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const NavbarStc=Styled(Row)`
+const NavbarStc=Styled(Navbar)`
     background: transparent;
-    width: auto;
-    overflow: hidden;
+    width: fit-content;
     padding: 0;
     margin: 0;
 
@@ -37,6 +36,7 @@ const NavbarStc=Styled(Row)`
     margin: auto;
     color: #e65061;
     padding: 10px;
+    margin-left: 5rem;
 }
 
 .sidebar__logout > a{
@@ -46,8 +46,8 @@ const NavbarStc=Styled(Row)`
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 390px) and (max-width: 860px){
-    width: 100vw;
+@media screen and (min-width: 340px) and (max-width: 860px){
+    width: 100%;
 }
 
 

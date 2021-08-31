@@ -1,11 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import SectionDash from '../components/Molecules/SectionDash';
+import styles from '../styles/Home.module.css';
 import Navb from '../components/Atomes/navbar';
-import Link from 'next/link';
+import MoleculeRdvIso from '../components/Molecules/MoleculesRdvIso';
 
-export default function test() {
+export default function rdviso() {
   return (
     <div>
       <Head>
@@ -14,10 +13,12 @@ export default function test() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="container-fluid w-100"> 
-            
-      
-            <SectionDash />
+      <main className="container overflow: auto; mx-auto"> 
+            <Navb/>
+      <div className="container mt-3">
+            <MoleculeRdvIso />
+      </div>
+          
       </main>
 
       <footer className={styles.footer}>
