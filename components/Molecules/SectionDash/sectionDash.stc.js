@@ -11,14 +11,11 @@ const SectionDashStc=Styled(Container)`
     z-index: -6;*/
 
 a{
-<<<<<<< HEAD
     text-decoration: none!important;
     color: black;
     font-size: initial;
     font-weight: 700;
-=======
     text-decoration: none;
->>>>>>> parent of dbd3985 (ouf)
 }
     
 .text-green{
@@ -209,7 +206,7 @@ main {
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
+
 .card{
     background-color: gold;
 }
@@ -221,8 +218,7 @@ main {
     font-weight: 700;
 }
 
-=======
->>>>>>> parent of dbd3985 (ouf)
+
 .card1{
     background: #d1ecf1;
     color: #35a4ba;

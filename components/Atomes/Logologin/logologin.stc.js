@@ -2,7 +2,6 @@ import Styled from 'styled-components';
 import { Row } from 'reactstrap';
 
 const LogologinStc=Styled(Row)`
-    //background: #f7f49dad;
     border-radius: .8rem;
     overflow: hidden!important;
 
