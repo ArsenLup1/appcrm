@@ -4,7 +4,7 @@ import LoginFormStc from './login.stc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
-//import Image from 'next/image';
+import Image from 'next/image';
 
 
 const LoginForm = () => {
@@ -13,7 +13,8 @@ const LoginForm = () => {
         <LoginFormStc>
     <Row className="mx-auto h-100 rounded">
         <div className='col-lg-12 align-middle d-flex justify-content-center pt-5 loginn'>
-            <image src="./img/KomJ.png" className="rounded thumbnail monlogo" alt="logo" width="300px"/>
+            <Image src="/img/KomJ.png" alt="Vercel Logo" width={350} height={306} />
+            {/*<Image src="./KomJ.png" className="rounded thumbnail monlogo" alt="logo" width="300px"/>*/}
         </div>
         <div className="col-lg-12 align-middle d-flex justify-content-center sign-in">
             <h1 className='mt-5'>Sign in</h1>
